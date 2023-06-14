@@ -22,35 +22,35 @@ body {
 .b {
   background-color: rgb(255, 2, 2);
   padding: 40px;
-  flex: 100%;
+  flex: 76%;
 }
 
 .c {
   background-color: rgb(255, 234, 0);
   padding: 10px;
-  flex: 30%;
+  flex: 24%;
 }
 
 .d {
   background-color: rgb(0, 170, 255);
   padding: 10px;
-  flex: 30%;
+  flex: 24%;
 }
 
 .e {
   background-color: rgb(0, 106, 255);
   padding: 10px;
-  flex: 30%;
+  flex: 24%;
 }
 
 .f {
   background-color: rgb(0, 255, 128);
   padding: 10px;
-  flex: 50%;
+  flex: 100%;
 }
 
 @media (max-width: 800px) {
-  .a, .b, .c, .d, .e, .f {
+  .a, .b, .f {
     flex: 100%;
   }
 }
