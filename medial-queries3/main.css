@@ -1,3 +1,68 @@
 body {
   background: peachpuff;
 }
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  font-size: 50px;
+  text-align: center;
+}
+
+.a {
+  background-color: #f1f1f1;
+  padding: 10px;
+  flex: 100%;
+}
+
+.b {
+  background-color: rgb(255, 2, 2);
+  padding: 10px;
+  flex: 30%;
+}
+
+.c {
+  background-color: rgb(255, 234, 0);
+  padding: 10px;
+  flex: 30%;
+}
+
+.d {
+  background-color: rgb(0, 170, 255);
+  padding: 10px;
+  flex: 30%;
+}
+
+.e {
+  background-color: rgb(0, 106, 255);
+  padding: 10px;
+  flex: 30%;
+}
+
+.f {
+  background-color: rgb(0, 255, 128);
+  padding: 10px;
+  flex: 30%;
+}
+
+.g {
+  background-color: rgb(0, 143, 2);
+  padding: 10px;
+  flex: 30%;
+}
+
+.h {
+  background-color: rgb(221, 0, 255);
+  padding: 10px;
+  flex: 100%;
+}
+
+@media (max-width: 800px) {
+  .a, .b, .c, .d, .e, .f, .g, .h {
+    flex: 100%;
+  }
+}

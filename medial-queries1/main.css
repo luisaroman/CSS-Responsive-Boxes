@@ -16,22 +16,21 @@ body {
 .a {
   background-color: #f1f1f1;
   padding: 10px;
-  flex: 50%;
+  flex: 100%;
 }
 
 .b {
   background-color: rgb(255, 2, 2);
-  padding: 10px;
-  flex: 50%;
+  padding: 100px;
+  flex: 75%;
 }
 
 .c {
   background-color: rgb(255, 234, 0);
   padding: 10px;
-  flex: 50%;
+  flex: 25%;
 }
 
-/* Responsive layout - makes a one column-layout instead of a two-column layout */
 @media (max-width: 800px) {
   .a, .b, .c {
     flex: 100%;
