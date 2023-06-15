@@ -58,11 +58,11 @@ body {
 .h {
   background-color: rgb(221, 0, 255);
   padding: 10px;
-  flex: 100%;
+  flex: 10%;
 }
 
 @media (max-width: 800px) {
-  .a, .b, .c, .d, .e, .f, .g, .h {
+  .a, .h {
     flex: 100%;
   }
 }
